@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {        
+    width: 20em;    
+}
+
+.inputContainer, .outputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 15em;
+}
+
+.inputContainer {
+    background-color: #435e92;   
+    margin-top: 1em; 
+}
+
+.outputContainer {
+    background-color: white;
+    width: 100%;
+    word-break: break-all;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #a7acba;
+    height: 100vh;
+}
+
+input {
+    width: 5em;
+    padding: 1em;
+    margin: 1em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    background-color: #435e92;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: whitesmoke;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+#resposta {
+    color: #435e92;
+    padding: 1em;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
